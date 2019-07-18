@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./bootstrap/js/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/jquery.singlePageNav.min.js"></script>
+    <script src="./bootstrap/js/wow.min.js"></script>
+    <title>bootstrap-demo1</title>
+</head>
+<body>
+    <!-- <div class="wow rollIn" style="width: 100px; height: 100px; background-color: #5bd5a0;"></div> -->
+    <!-- 导航 -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- 小屏幕导航按钮和logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">bootstrap练习</a>
+            </div>
+            <!-- 小屏幕导航按钮和logo -->
+
+            <!-- 导航 -->
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp后台首页</a></li>
+                    <li><a href="user_list.html"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp用户管理</a></li>
+                    <li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp&nbsp内容管理</a></li>
+                    <li class="active"><a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp&nbsp标签管理</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            admin
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp&nbsp前台首页</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp个人主页</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp&nbsp个人设置</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-picture"></span>&nbsp&nbsp账户中心</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp&nbsp我的收藏</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp&nbsp退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>TAG标签管理</h1>
+                </div>
+            </div>
+            <div class="col-md-12 padding0">
+                <form action="">
+                    <div class="col-md-10 padding0">
+                        <input class="form-control" type="text" placeholder="请输入要添加的标签">
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-default">添加</button>
+                    </div>
+                </form>   
+            </div>
+            <div class="col-md-12 taglist">
+                <div class="alert alert-info alert-dismissible pull-left" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>bootstrap练习</strong>
+                </div>
+                <div class="alert alert-warning alert-dismissible pull-left" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>前端教程</strong>
+                </div>
+                <div class="alert alert-success alert-dismissible pull-left" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>前端实战</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>shdhgsdhdgjsdksjdjshdghfghgfshajhghgffffgdjhsskhfjs</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

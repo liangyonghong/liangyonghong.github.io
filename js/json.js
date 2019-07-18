@@ -11,25 +11,25 @@ var Json = {
             link:'bootstrap1/index.html'
         },
         {
-            name:'图片配对',
+            name:'bootstrap2',
             date:'2015.9',
             detail:'整个过程利用随机数组打乱所有牌的顺序，存储这个数组，游戏区域中每个方块所在的索引值就是这个随机数组的索引值。每两次点击 进行一次比较，因为用到css3的技术 ，所以最好用谷歌、火狐来玩耍。等级的选项是要增加随机数组的长度。',
             image:['images/photo/2/1.png','images/photo/2/2.png','images/photo/2/3.png','images/photo/2/4.png'],
-            link:'http://www.baidu.com'
+            link:'bootstrap2/index.html'
         },
         {
-            name:'扫雷',
+            name:'飞机大战',
             date:'2015.9',
             detail:'一款较老的小游戏，用了自己封装的tdn.js的库完成游戏的开发，为了贴近原版扫雷，添加了可以单击数字方格提示周围是否有雷的功能。',
             image:['images/photo/3/1.png','images/photo/3/2.png','images/photo/3/3.png','images/photo/3/4.png'],
-            link:'2013.miaov.com/student/ldd/ray'
+            link:'jsfly/index.html'
         },
         {
-            name:'日历插件',
+            name:'小米商城',
             date:'2015.9',
             detail:' 日历插件因为在工作中用的较多，所以对他比较感兴趣，利用这段时间自己捣鼓了一个。用面向对象的编程思路编写日历函数，设置了多个功能选项对日历进行不同的操作。',
             image:['images/photo/4/1.png','images/photo/4/2.png','images/photo/4/3.png','images/photo/4/4.png'],
-            link:'2013.miaov.com/student/ldd/calendar'
+            link:'xiaomi/index.html'
         },
         // {
         //     name:'手机端淘宝首页',
