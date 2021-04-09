@@ -31,13 +31,13 @@ var Json = {
             image:['images/photo/4/1.png','images/photo/4/2.png','images/photo/4/3.png','images/photo/4/4.png'],
             link:'xiaomi/index.html'
         },
-        // {
-        //     name:'手机端淘宝首页',
-        //     date:'2015.10',
-        //     detail:' 页面的制作整个基于rem单位。手机端的滑动比较阻塞，于是用了iScroll插件。网页效果整个基于jquery2.0，包括：banner的无缝滚动 、点击跳转链接（只做了部分处理），页面的图片的延迟加载，倒计时效果。',
-        //     image:['images/photo/5/1.png','images/photo/5/2.png','images/photo/5/3.png','images/photo/5/4.png'],
-        //     link:'2013.miaov.com/student/ldd/taobao'
-        // },
+        {
+            name:'图片简历',
+            date:'2015.10',
+            detail:' 页面的制作整个基于rem单位。手机端的滑动比较阻塞，于是用了iScroll插件。网页效果整个基于jquery2.0，包括：banner的无缝滚动 、点击跳转链接（只做了部分处理），页面的图片的延迟加载，倒计时效果。',
+            image:['images/photo/5/1.png','images/photo/5/2.png','images/photo/5/3.png','images/photo/5/4.png'],
+            link:'jianli/public/index.html'
+        },
         // {
         //     name:'单屏滚动页面',
         //     date:'2015.10',
